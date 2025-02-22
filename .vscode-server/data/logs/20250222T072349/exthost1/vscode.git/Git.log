@@ -1,0 +1,52 @@
+2025-02-22 07:24:00.247 [info] [main] Log level: Info
+2025-02-22 07:24:00.247 [info] [main] Validating found git in: "git"
+2025-02-22 07:24:00.247 [info] [main] Using git "2.43.0" from "git"
+2025-02-22 07:24:00.247 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-22 07:24:00.247 [info] > git rev-parse --show-toplevel [439ms]
+2025-02-22 07:24:00.247 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-02-22 07:24:00.247 [info] [Model][openRepository] Opened repository: /home/wsj
+2025-02-22 07:24:00.278 [info] > git config --get commit.template [3ms]
+2025-02-22 07:24:00.344 [info] > git rev-parse --show-toplevel [47ms]
+2025-02-22 07:24:00.376 [info] > git rev-parse --show-toplevel [15ms]
+2025-02-22 07:24:00.377 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [66ms]
+2025-02-22 07:24:00.430 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-22 07:24:00.462 [info] > git rev-parse --show-toplevel [27ms]
+2025-02-22 07:24:00.479 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-22 07:24:00.497 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-22 07:24:00.513 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-22 07:24:00.527 [info] > git rev-parse --show-toplevel [11ms]
+2025-02-22 07:24:00.546 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-22 07:24:00.619 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [208ms]
+2025-02-22 07:24:00.661 [info] > git ls-files --stage -- /home/wsj/web.html [43ms]
+2025-02-22 07:24:00.685 [info] > git cat-file -s 5157e2b9bf70ad208f6a682524cda71029580b77 [19ms]
+2025-02-22 07:24:00.727 [info] > git show --textconv :web.html [130ms]
+2025-02-22 07:24:00.932 [info] > git blame --root --incremental 875ad8fe8aaf889a9d9538df56c1ffe25d9764ac -- /home/wsj/web.html [135ms]
+2025-02-22 07:24:01.290 [info] > git status -z -uall [892ms]
+2025-02-22 07:24:01.290 [info] > git check-ignore -v -z --stdin [372ms]
+2025-02-22 07:24:01.337 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-02-22 07:24:01.353 [info] > git config --get commit.template [17ms]
+2025-02-22 07:24:01.364 [info] > git config --get --local branch.main.vscode-merge-base [14ms]
+2025-02-22 07:24:01.364 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-22 07:24:01.441 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2025-02-22 07:24:01.488 [info] > git reflog main --grep-reflog=branch: Created from *. [120ms]
+2025-02-22 07:24:01.525 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [38ms]
+2025-02-22 07:24:01.541 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [35ms]
+2025-02-22 07:24:01.541 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-22 07:24:01.541 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-22 07:24:01.607 [info] > git status -z -uall [152ms]
+2025-02-22 07:24:05.436 [info] > git config --get commit.template [5ms]
+2025-02-22 07:24:05.437 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-22 07:24:05.448 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-22 07:24:05.478 [info] > git status -z -uall [38ms]
+2025-02-22 07:24:10.491 [info] > git config --get commit.template [5ms]
+2025-02-22 07:24:10.492 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-22 07:24:10.505 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-02-22 07:24:10.541 [info] > git status -z -uall [45ms]
+2025-02-22 07:24:15.557 [info] > git config --get commit.template [5ms]
+2025-02-22 07:24:15.557 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-22 07:24:15.570 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-22 07:24:15.600 [info] > git status -z -uall [40ms]
+2025-02-22 07:24:20.617 [info] > git config --get commit.template [5ms]
+2025-02-22 07:24:20.618 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-22 07:24:20.627 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-22 07:24:20.660 [info] > git status -z -uall [39ms]

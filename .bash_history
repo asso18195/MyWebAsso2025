@@ -128,3 +128,57 @@ git status
 "git add web.html
 git config --global use.name "asso18195"
 sudo clear
+ls
+git config --global user.name "asso18195"
+git config --global user.email "asso18195@gmail.com"
+sudo clear
+sudo apt update
+clear
+sudo apt upgrade
+CLEAR
+clear
+sudo apt install git
+sudo apt autoremove
+sudo apt install git
+git --version
+git config --global.user.name "asso18195"
+git config global.user.name asso18195
+git config global.user.mail asso18195@gmail.com
+git config global.user.name asso18195
+clear
+git config --global.user.name "asso18195"
+git config --global.user.name asso18195
+git config --global.user.name
+git config --global.user.name asso18195
+clear
+git config --global.user.name asso18195
+clear
+git config global user.name asso18195
+git config --global user.name "asso18195"
+git config --global user.mail "asso18195@gmail.com"
+git config --list
+git config --global core.editor nano
+git config --global core.ui true
+git config --list
+lear
+clear
+git init
+ls
+git add .
+git commit -m "Mi primer commit"
+git branch -M main
+git remote add origin https://github.com/asso18195/MyWebAsso.git
+git remote add origin git@github.com:asso18195/MyWebAsso.git
+git push -u origin main
+ls
+git init
+git status
+git add
+git add web.html
+git status
+git add web.html
+git status
+git commit -a
+git add web.html
+git status
+git commit -m "Mi primer Commit"
