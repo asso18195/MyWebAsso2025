@@ -1,3 +1,7 @@
 [user]
 	name = asso18195
 	mail = asso18195@gmail.com
+	email = asso18195@gmail.com
+[core]
+	editor = nano
+	ui = true

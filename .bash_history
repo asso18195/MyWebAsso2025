@@ -93,3 +93,38 @@ fatal: Authentication failed for 'https://github.com/asso18195/MyWebAsso.git/'em
 remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
 fatal: Authentication failed for 'https://github.com/asso18195/MyWebAsso.git/'
 git push origin master
+ls
+cd 
+ls
+git init
+git status
+git add web.html
+git add .
+git status
+git commit -m "Mi primer comit"
+git remote add origin github.com/asso18195/WSJ_2025.git
+git remote add origin https://github.com/asso18195/WSJ_2025.git
+git remote -v
+git push origin main
+git push origin master
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/asso18195/MyWebAsso.git/'remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/asso18195/MyWebAsso.git/'remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/asso18195/MyWebAsso.git/'remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/asso18195/MyWebAsso.git/'
+sudo clear
+git config --global user.name [asso18195]
+git config --global user.email [asso18195@gmail.com]
+git config --list
+git commit -m "Mi primer commit"
+git add git log
+git add
+git add web.html
+git status
+"git add web.html
+git config --global use.name "asso18195"
+sudo clear
