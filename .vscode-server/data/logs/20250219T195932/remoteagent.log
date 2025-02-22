@@ -1,0 +1,28 @@
+2025-02-19 19:59:33.099 [info] 
+
+
+
+
+2025-02-19 19:59:33.099 [info] Extension host agent started.
+2025-02-19 19:59:33.181 [info] Started initializing default profile extensions in extensions installation folder. file:///home/wsj/.vscode-server/extensions
+2025-02-19 19:59:33.330 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/wsj/.vscode-server/extensions
+2025-02-19 19:59:36.860 [info] [127.0.0.1][b5c7e4c6][ManagementConnection] New connection established.
+2025-02-19 19:59:36.865 [info] [127.0.0.1][9a972fb4][ExtensionHostConnection] New connection established.
+2025-02-19 19:59:36.882 [info] [127.0.0.1][9a972fb4][ExtensionHostConnection] <742> Launched Extension Host Process.
+2025-02-19 20:12:11.666 [info] Getting Manifest... ritwickdey.liveserver
+2025-02-19 20:12:12.656 [info] Installing extension: ritwickdey.liveserver {"installPreReleaseVersion":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/wsj/.vscode-server/extensions/extensions.json","external":"file:///home/wsj/.vscode-server/extensions/extensions.json","path":"/home/wsj/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"}}
+2025-02-19 20:12:17.111 [info] Extension signature verification result for ritwickdey.liveserver: Success. Executed: true. Duration: 3361ms.
+2025-02-19 20:12:31.985 [info] Extracted extension to file:///home/wsj/.vscode-server/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2025-02-19 20:12:33.410 [info] Renamed to /home/wsj/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2025-02-19 20:12:33.447 [info] Extension installed successfully: ritwickdey.liveserver file:///home/wsj/.vscode-server/extensions/extensions.json
+2025-02-19 20:13:21.291 [info] Uninstalling extension from the profile: ritwickdey.liveserver@5.7.9 file:///home/wsj/.vscode-server/extensions/extensions.json
+2025-02-19 20:13:21.333 [info] Marked extension as removed ritwickdey.liveserver-5.7.9
+2025-02-19 20:13:21.559 [info] Successfully uninstalled extension from the profile ritwickdey.liveserver@5.7.9 file:///home/wsj/.vscode-server/extensions/extensions.json
+2025-02-19 20:13:26.148 [info] Getting Manifest... ritwickdey.liveserver
+2025-02-19 20:13:26.863 [info] Installing extension: ritwickdey.liveserver {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"operation":3,"isApplicationScoped":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/wsj/.vscode-server/extensions/extensions.json","external":"file:///home/wsj/.vscode-server/extensions/extensions.json","path":"/home/wsj/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2025-02-19 20:13:26.945 [info] Removed the extension from removed list: ritwickdey.liveserver
+2025-02-19 20:13:26.979 [info] Extension installed successfully: ritwickdey.liveserver file:///home/wsj/.vscode-server/extensions/extensions.json
+2025-02-19 20:14:54.131 [info] [127.0.0.1][9a972fb4][ExtensionHostConnection] <742> [0mGET /favicon.ico [33m404[0m 4.105 ms - 150[0m
+
+2025-02-19 20:54:46.890 [info] [127.0.0.1][b5c7e4c6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-19 20:54:47.466 [info] [127.0.0.1][9a972fb4][ExtensionHostConnection] <742> Extension Host Process exited with code: 0, signal: null.
